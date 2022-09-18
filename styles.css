@@ -1,0 +1,109 @@
+*{
+    margin: 0;padding: 0;
+}
+nav{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.navdiv{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navHead{
+    margin-right: 12px;
+}
+
+/* serchbar */
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    /* background-color: aliceblue; */
+}
+
+
+
+.productDiv{
+    width: 200px;
+    height: 200px;
+    
+    flex: 0 0 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    box-shadow: 10px 10px 10px 10px grey;
+    
+    
+}
+
+aside{
+    height: 435px;
+    box-shadow: 10px 10px 10px 10px grey;
+    width: 20%;
+    margin-top:30px;
+    padding: 12px;
+}
+
+.options{
+
+    margin: 10px 10px 20px 10px;
+}
+
+
+.mainproductconatiner{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.productImg{
+    width: 210px;
+    height: 150px;
+    background-color: antiquewhite;
+    align-self: center;
+    margin-bottom: 5px;
+    
+}
+
+
+
+
+/* search */
+
+.searchInput{
+    width: 250px;
+    height: 25px;
+    border: 0px;
+    border-bottom: 2px solid antiquewhite;
+    margin: 10px;
+}
+
+.searchbtn{
+    height: 25px;
+    width: 60px;
+    padding: 3px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    
+}
+
+
+
+/* utility */
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
